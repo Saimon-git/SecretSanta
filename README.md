@@ -32,3 +32,9 @@ Player2 : Player4
 Player3 : Player2
 Player4 : Player1
 ```
+
+the url for testing are:
+```angular2html
+/santa for secret santa play
+/fibonacci for fibonacci algoritm
+```
