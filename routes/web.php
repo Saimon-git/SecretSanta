@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\FibonnacciController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SantaController;
 
@@ -19,3 +20,4 @@ Route::get('/', function () {
 });
 
 Route::get('/santa', [SantaController::class, 'index']);
+Route::get('/fibonacci', [FibonnacciController::class, 'index']);
